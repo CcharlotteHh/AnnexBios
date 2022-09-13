@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annex Bios</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <img src="" alt="AnnexBios logo">
+      <ul>
+        <li>VESTIGINGEN</li>
+        <li>AANBEVOLEN FILMS</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <nav>
+        <a href="#" class="ticketlink">Koop Je Tickets</a>
+        <form method="post" class="navform" action="#">
+            <select name="movieoption" class="movieoption">
+              <option selected="selected" value="kies je film">Kies je film</option>
+              <option value="" name=""></option>
+              <option value="" name=""></option>
+              <option value="" name=""></option>
+              <option value="" name=""></option>
+            </select>
+            <input type="submit" value="Submit">
+          </form>
+    </nav>
+    <main class="ordermain">
+        <h1>TICKETS BESTELLEN</h1>
+        <div class="datetime">
+            <p class="moviename">Jurrasic World</p>
+            <select name="dateoption" class="dateoption">
+                <option selected="selected" value="datum">Datum</option>
+                <option value="" name=""></option>
+            </select>
+              <select name="dateoption" class="dateoption">
+                <option selected="selected" value="datum">Datum</option>
+                <option value="" name=""></option>
+            </select>
+        </div>      
+        <form method="post" class="orderform" action="#"><!--MAIN FORM WHERE ALL ORDER STEPS WILL TAKE PLACE-->
+            <div class="stap1">
+            <h2>STAP 1: KIES JE TICKET</h2>
+                <div class="ticketoptions">
+                    <div class="optionheaders">
+                        <p>TYPE</p>
+                        <P>PRIJS</P>
+                        <p>AANTAL</p>
+                    </div>
+                    <hr>
+                    <div class="optiondropdowns">
+                        <label for="normaal">Normaal</label>
+                            <select name="normaal" id="normaal">
+                                <option value="" name=""></option>
+                            </select>
+                        <label for="kind">Kind t/m 11 jaar</label>
+                            <select name="kind" id="kind">
+                                <option value="" name=""></option>
+                            </select>
+                        <label for="65+">65+</label>
+                            <select name="kind" id="kind">
+                                <option value="" name=""></option>
+                            </select>
+                    </div>
+                    <hr>
+                </div>
+                <div class="voucerpart"> <!--optie om voucher code toe te voegen. hoe gaan we dit uitwerken want er kan geen form in een form genest worden-->
+                    <label for="voucher">VOUCHERCODE</label>
+                    <input type="text" placeholder="code">
+                    <button type="button">Toevoegen</button>
+                </div>
+            </div>
+            <div class="stap2">
+                <h2>STAP 2:KIES JE STOEL</h2>
+            </div>    
+            <input type="submit" value="AFREKENEN">
+        </form>
+
+    </main>
+  </div>
+</body>
+</html>
