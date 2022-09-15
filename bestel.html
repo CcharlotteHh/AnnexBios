@@ -10,7 +10,7 @@
 <body>
   <div id="container">
     <header>
-      <img src="" alt="AnnexBios logo">
+      <img src="assets/img/logo_hoofd.png" alt="AnnexBios logo">
       <ul>
         <li>VESTIGINGEN</li>
         <li>AANBEVOLEN FILMS</li>
@@ -43,7 +43,7 @@
                 <option value="" name=""></option>
             </select>
         </div>      
-        <form method="post" class="orderform" action="./assets/php/tickets_bestellen.php"><!--MAIN FORM WHERE ALL ORDER STEPS WILL TAKE PLACE-->
+        <form method="post" class="orderform" action="#"><!--MAIN FORM WHERE ALL ORDER STEPS WILL TAKE PLACE-->
             <div class="stap1">
             <h2>STAP 1: KIES JE TICKET</h2>
                 <div class="ticketoptions">
@@ -54,44 +54,17 @@
                     </div>
                     <hr>
                     <div class="optiondropdowns">
-                        <label for="ticket_normaal">Normaal</label>
-                            <select name="ticket_normaal" id="ticket_normaal" name="ticket_normaal">
+                        <label for="normaal">Normaal</label>
+                            <select name="normaal" id="normaal">
                                 <option value="" name=""></option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
                             </select>
-                        <label for="ticket_kind">Kind t/m 11 jaar</label>
-                            <select name="ticket_kind" id="ticket_kind" name="ticket_kind">
+                        <label for="kind">Kind t/m 11 jaar</label>
+                            <select name="kind" id="kind">
                                 <option value="" name=""></option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
                             </select>
-                        <label for="ticket_65">65+</label>
-                            <select name="ticket_65" id="ticket_65" name="ticket_65">
+                        <label for="65+">65+</label>
+                            <select name="kind" id="kind">
                                 <option value="" name=""></option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
                             </select>
                     </div>
                     <hr>
@@ -124,22 +97,23 @@
                 <div class="stap4">
                     <h2>STAP 4: VUL JE GEGEVENS IN</h2>
                     <div class="information">
-                        <input type="text" placeholder="Voornaam*" id="voornaam" name="voornaam" required>
-                        <input type="text" placeholder="Achternaam*" id="achternaam" name="achternaam" required>
-                        <input type="email" placeholder="E-mailadres*" id="email" name="email" required>
+                        <input type="text" placeholder="Voormaan*" required="required">
+                        <input type="text" placeholder="Achternam*" required="required">
+                        <input type="email" placeholder="E-mailadres*" required="required">
+                        <input type="email" placeholder="E-mailadres*" required="required">   
                     </div>
                 </div>
                 <div class="stap5">
                     <h2>STAP 5: KIES JE BETAALWIJZE</h2>
-                    <div class="paymentoptions">
-                        <input type="checkbox" name="betaalwijze" id="nbb" value="nbb"><img src="" alt="nbb">
-                        <input type="checkbox" name="betaalwijze" id="maestro" value="maestro"><img src="" alt="maestro">
-                        <input type="checkbox" name="betaalwijze" id="ideal" value="ideal"><img src="" alt="ideal">
-                        <input type="checkbox" name="" required>Ja, ik ga akkoord met de <a href="#" class="ticketlink">algemene voorwaarden</a></input>
+                    <div class="paymentoptios">
+                        <input type="checkbox" name="nbb"><img src="" alt="nbb">
+                        <input type="checkbox" name="maestro"><img src="" alt="maestro">
+                        <input type="checkbox" name="ideal"><img src="" alt="ideal">
+                        <input type="checkbox" name="nbb">Ja, ik ga akkoord met de <a href="#" class="ticketlink">algemene voorwaarden</a></input>
                 </div>
 
             </div>   
-            <input type="submit" value="afrekenen" id="afrekenen_submit" name="afrekenen_submit" required/>
+            <input type="submit" value="AFREKENEN" required="required"/>
         </form>
 
     </main>

@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Annex Bios</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <div id="container">
-    <header>
-      <img src="assets/img/logo_hoofd.png" alt="AnnexBios logo">
-      <ul>
-        <li>VESTIGINGEN</li>
-        <li>AANBEVOLEN FILMS</li>
-        <li>CONTACT</li>
-      </ul>
-    </header>
-    <footer>
+<footer>
       <div class="annexbios">
-        <img src="assets/img/logo_hoofd.png" alt="logo">
+      <img src="assets/img/logo.png" alt="AnnexBios logo">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laudantium esse optio expedita accusamus fugit animi recusandae labore nobis tenetur?</p>
         <button class="footerbtn">Lees Meer</button>
       </div>
@@ -39,7 +20,12 @@
           <li class="socialsitem">Vestegingen</li>
         </ul>
       </div>
-    </footer>
+      <div class="disclaimer">
+        <p class="disclaimertext">
+          Voorwaarden | Privacy beleid | Cookie disclaimer
+        </p>
+      </div>
+      </footer>
   </div>
 </body>
 </html>
