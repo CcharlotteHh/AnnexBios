@@ -1,11 +1,12 @@
 <footer>
+  <div class="infofooter">
       <div class="annexbios">
-      <img src="assets/img/logo.png" alt="AnnexBios logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laudantium esse optio expedita accusamus fugit animi recusandae labore nobis tenetur?</p>
+      <img src="assets/img/logo2.png" alt="AnnexBios logo">
+        <p class="footertext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
         <button class="footerbtn">Lees Meer</button>
       </div>
       <div class="navigeer">
-        <p>NAVIGEER</p>
+        <h2>NAVIGEER</h2>
         <ul class="footerul">
           <li class="footeritem">Werken bij</li>
           <li class="footeritem">Veelgestelde vragen</li>
@@ -15,10 +16,12 @@
       </div>
       <div class="volgons">
         <ul class="socials">
+        <h2>VOLG ONS</h2>
           <li class="socialsitem">Werken bij</li>
           <li class="socialsitem">Veelgestelde vragen</li>
           <li class="socialsitem">Vestegingen</li>
         </ul>
+      </div>
       </div>
       <div class="disclaimer">
         <p class="disclaimertext">

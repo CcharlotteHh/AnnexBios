@@ -7,7 +7,8 @@
 
 :root{
   --red:#9E2629;
-  --black:
+  --black:#000000;
+  --gray:#666666;
 }
 
 #container {
@@ -75,6 +76,60 @@ nav a {
   color: var(--red);
 }
 
-.disclaimer{
+footer{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul h2 {
+  padding-bottom: 5px;
+}
+.volgons{
+  padding-bottom: 5px;
+}
+
+.infofooter{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  background-color:var(--gray);
+  height:478px;
+  align-items: center;
+}
+.annexbios{
+  width:21%;
+  margin-left: 9.1%;
+  margin-right: 5.9%;
+}
+.footertext{
+  font-size: 20px;
+  color:white;
+  width:100%;
+}
+
+.footerbtn{
+  padding:2.8%;
+  font-size: 15px;
+  background-color:white;
+  border: none;
+}
+
+.navigeer{
+  margin-right: 5.9%;
+  color:white;
   
+}
+.volgons{
+  color:white;
+  
+}
+.disclaimer {
+  width: 100%;
+  background-color: var(--black);
+  color:white;
 }
