@@ -11,17 +11,18 @@ function afrekenen($request)
   $voornaam = mysqli_real_escape_string($conn, $request['voornaam']);
   $achternaam = mysqli_real_escape_string($conn, $request['achternaam']);
   $email = $request['email'];
-  $betaalwijze = mysqli_real_escape_string($conn, $request['betaalwijze']);
+  // $betaalwijze = mysqli_real_escape_string($conn, $request['betaalwijze']);
+  $betaalwijze = $request['betaalwijze'];
 
   $query = "INSERT INTO `Reserveringen`(`ticket_normaal`,`ticket_kind`,`ticket_65`,`betaalwijze`) VALUES('$ticket_normaal','$ticket_kind','$ticket_65','$betaalwijze')";
   $execute_query = mysqli_query($conn, $query);
-  if($execute_query){
+  if ($execute_query) {
     echo "into reserveringen succesfull";
   }
 
   $query2 = "INSERT INTO `Klant`(`voornaam`,`achternaam`,`email`) VALUES('$voornaam','$achternaam','$email')";
   $execute_query2 = mysqli_query($conn, $query2);
-  if($execute_query2){
+  if ($execute_query2) {
     echo "into klant succesfull";
   }
 }
