@@ -191,6 +191,32 @@ index
   height:27%;
   background-color: white;
   margin-bottom:3.8%;
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  color:white;
+  background-color:var(--red);
+  padding:2.8%;
+
+}
+
+.annex2info h1{
+  font-size:60px;
+  margin-bottom:2.8%;
+}
+.annex2info p{
+  font-size:25px;
+  width:53%;
+  margin-bottom:2.8%;
+}
+
+.annex2info button{
+  font-size:20px;
+  color:var(--red);
+  border:none;
+  height: 55px;
+  cursor: pointer;
+  padding:0.1%;
 }
 
 .maps{
@@ -203,10 +229,27 @@ index
 
 .mapandinfo{
   width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  margin-left: 2.9%;
 }
 
-.maps img{
-  height:80%;
+.info{
+  height: 235px;
+  width: 100%;
+  background-color:var(--red);
+}
+
+.imageindex{
+  margin-left: 2.9%;
+}
+
+.imageindex img{
+  width:90%;
+  height:75%;
+  object-fit:cover;
 }
 
 .filmagenda{
