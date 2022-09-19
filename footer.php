@@ -22,6 +22,7 @@
           <li class="socialsitem">Vestegingen</li>
         </ul>
       </div>
+      
       </div>
       <div class="disclaimer">
         <p class="disclaimertext">
