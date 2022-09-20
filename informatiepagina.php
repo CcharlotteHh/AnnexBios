@@ -11,10 +11,16 @@ $mustache = new Mustache_Engine(array('entity_flags' => ENT_QUOTES, 'loader' => 
 $movieBlockTemplate = $mustache->loadTemplate('movieInformation');
 ?>
 <div id="container">
+<main>
+    <div class="headerblock">
+        <h1>kbk</h1>
+    </div>
     <?php
       echo $movieBlockTemplate->render($jsonData["filmdata"][0]);
     ?>
   </div>
+</div>
+</main>
 </div>
 <?php
 require 'footer.php';
