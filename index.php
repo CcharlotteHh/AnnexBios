@@ -46,7 +46,16 @@ require 'header.php';
             </figure>
           </div>
         </div>
-        <div class="filmagenda"></div>
+        <div class="filmagenda">
+        <div class="headerblock">
+        <h2>FILM AGENDA</h2>
+    </div>
+    <div class="filterblock">
+    <i class="fa-solid fa-bars filtericon"></i>
+    <input type="checkbox" name="dezeweek" id="dezeweek">Deze week</input>
+
+    </div>
+    </div>
       </main>
       <?php
 require 'footer.php';

@@ -282,3 +282,34 @@ index
   background-color:purple;
 
 }
+
+.headerblock{
+  background-color:white;
+  height:113px;
+  width: 40%;
+  margin-left: 8%;
+  color: var(--red);
+  display:flex;
+  align-items: center;
+}
+
+.headerblock h2{
+  font-size:70px;
+  padding-left:5%;
+}
+
+.filterblock{
+  background-color:white;
+  height:46px;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 15px;
+  color: var(--red);
+  display:flex;
+  align-items: center;
+}
+
+.filtericon{
+  font-size:20px;
+  background-color:white;
+}
