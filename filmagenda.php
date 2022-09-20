@@ -10,12 +10,18 @@ $mustache = new Mustache_Engine(array('entity_flags' => ENT_QUOTES, 'loader' => 
 //load mustache template
 $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
 ?>
-<?php
-for ($i = 0; $i < ($jsonData["filmdata"]); $i++) {
-  //render mustache template and insert data from jsonData
-  echo $movieBlockTemplate->render($jsonData["filmdata"][$i]);
-}
-?>
+<div id="container">
+  <div class="movieContainer">
+    <?php
+    for ($i = 0; $i < 9; $i++) {
+      echo $movieBlockTemplate->render($jsonData["filmdata"][$i]);
+    }
+    for ($i = 0; $i < 9; $i++) {
+      echo $movieBlockTemplate->render($jsonData["filmdata"][$i]);
+    }
+    ?>
+  </div>
+</div>
 <?php
 require 'footer.php';
 ?>

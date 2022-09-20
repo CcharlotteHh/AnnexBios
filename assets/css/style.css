@@ -14,7 +14,9 @@
   font-family: 'Lato', sans-serif;
   height: 100%;
   width:100%;
-  max-width: 1920px; 
+  max-width: 1920px;
+  background-color: black;
+  color: white;
 }
 
 header {
@@ -22,6 +24,7 @@ header {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 header img{
@@ -67,6 +70,11 @@ nav a {
   margin-left:8.9%;
 }
 
+footer {
+  background-color: #666666;
+  color: white;
+}
+
 .bestelticketsbtn{
   width:158px;
   background-color:white;
@@ -77,4 +85,36 @@ nav a {
 
 .disclaimer{
   
+}
+
+.movieContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 7px;
+  grid-row-gap: 7px;
+  margin: 0 170px 0 170px;
+  color: white;
+}
+
+.movieCard {
+  height: 600px;
+}
+
+.movieCard img {
+  height: 300px;
+  width: 100%;
+}
+
+.movieCard button {
+  position: relative;
+  bottom: 0;
+}
+
+.ordermain {
+  background-color: white;
+  color: black;
+}
+
+.film_image {
+  height: 1000px;
 }
