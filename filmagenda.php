@@ -17,13 +17,15 @@ $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
     <div class="filterblock">
     <i class="fa-solid fa-bars filtericon"></i>
     <div class="films">
-    <i class="fa-solid fa-circle-arrow-down"></i><p>Films</p>
+    <input type="radio" name="dezeweek">Films</input>
     </div>
-    <div class="dezeweek">
+    <div class="films dezeweek">
     <input type="radio" name="dezeweek">Deze week</input>
     </div>
-    <input type="radio" name="vandaag" id="vandaag">Vandaag</input>
-    <select name="categoryfilmagenda" class="categoryoption">
+    <div class="films vandaag">
+    <input type="radio" name="dezeweek">Vandaag</input>
+    </div>
+    <select name=" films categoryfilmagenda" class="films">
     <option selected="selected" value="kies je categorie">CATEGORIE</option>
     </select>
     </div>

@@ -305,7 +305,7 @@ index
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 7px;
   grid-row-gap: 7px;
-  margin: 0 170px 0 170px;
+  margin: 0 8% 0 8%;
   color: white;
 }
 
@@ -404,7 +404,7 @@ index
 
 .imageandinformation{
  display: flex;
- margin: auto;
+ margin: 0 8% 0 8%;
  width: 82%;
 }
 
