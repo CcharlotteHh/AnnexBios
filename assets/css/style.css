@@ -295,6 +295,7 @@ index
   height:113px;
   width: 40%;
   margin-left: 8%;
+  margin-top: 100px;
   color: var(--red);
   display:flex;
   align-items: center;
@@ -404,7 +405,7 @@ index
 
 .imageandinformation{
  display: flex;
- margin: 0 8% 0 8%;
+ margin: 55px 8% 0 8%;
  width: 82%;
 }
 
@@ -429,9 +430,37 @@ index
   color: white;
   display: flex;
   justify-content:center;
+  justify-self: center;
   height:122px;
 }
 
+.buttonandtrailer{
+  width:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:15px;
+}
+
+.kooptickets{
+  width:82%;
+  margin-right: 2%;
+  font-size: 45px;
+  display: flex;
+  align-items:center;
+  border: none;
+}
+
+.trailer{
+  width:82%;
+  height:882px;
+  margin-right: 2%;
+  margin-bottom: 145px;
+  background-color:white;
+  margin-top:15px;
+  border: 10px solid var(--red);
+}
 
 /*block template*/
 

@@ -10,19 +10,20 @@ $mustache = new Mustache_Engine(array('entity_flags' => ENT_QUOTES, 'loader' => 
 //load mustache template
 $movieBlockTemplate = $mustache->loadTemplate('movieInformation');
 ?>
-
 <main>
-    <?php
-    $id = $_GET['movie']-1;
-    echo $movieBlockTemplate->render($jsonData["filmdata"][$id]);
-    ?>
-</div>
-</div>
+  <?php
+  $id = $_GET['movie'] - 1;
+  echo $movieBlockTemplate->render($jsonData["filmdata"][$id]);
+  ?>
+<div class="buttonandtrailer">
 <button class="kooptickets">
-  KOOP JE TICKETS
-</button>
+      KOOP JE TICKETS
+    </button>
+<div class="trailer">
+  trailer placeholder
+</div>
+</div>
 </main>
-
 <?php
 require 'footer.php';
 ?>
