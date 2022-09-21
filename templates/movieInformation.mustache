@@ -1,10 +1,19 @@
-<h1>{{film_title}}</h1>
-<img class="film_image" src="{{film_photo}}" alt="{{film_photo}}">
-<h5>Release {{film_releasedate}}</h5>
-<p>{{film_longinfo}}</p>
-<ol class="filmExtraInfo">
-<li>Filmlengte: {{film_length}}</li>
-<li>Land: {{film_country}}</li>
-<li>Imdb score: {{film_rating}}</li>
-<li>Regiseur: {{film_director}}</li>
-</ol>
+<div class="headerblock">
+        <h2>{{film_title}}</h2>
+</div>
+<div class="imageandinformation">
+    <figure class="image">
+        <img class="film_image" src="{{film_photo}}" alt="{{film_photo}}">
+    </figure>
+    <div class="information">
+    <h5 class="releasedate">Release {{film_releasedate}}</h5>
+    <p>{{film_longinfo}}</p>
+    <ul class="filmExtraInfo">
+    <li>Filmlengte: {{film_length}}</li>
+    <li>Land: {{film_country}}</li>
+    <li>Imdb score: {{film_rating}}</li>
+    <li>Regiseur: {{film_director}}</li>
+    </ul>
+    </div>
+</div>
+
