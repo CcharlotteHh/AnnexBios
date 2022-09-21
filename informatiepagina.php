@@ -13,7 +13,8 @@ $movieBlockTemplate = $mustache->loadTemplate('movieInformation');
 
 <main>
     <?php
-    echo $movieBlockTemplate->render($jsonData["filmdata"][0]);
+    $id = $_GET['movie']-1;
+    echo $movieBlockTemplate->render($jsonData["filmdata"][$id]);
     ?>
 </div>
 </div>
