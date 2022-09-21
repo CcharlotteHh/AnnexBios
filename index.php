@@ -61,8 +61,16 @@ $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
     </div>
     <div class="filterblock">
     <i class="fa-solid fa-bars filtericon"></i>
-    <input type="checkbox" name="dezeweek" id="dezeweek">Deze week</input>
-
+    <div class="films">
+    <i class="fa-solid fa-circle-arrow-down"></i><p>Films</p>
+    </div>
+    <div class="dezeweek">
+    <input type="radio" name="dezeweek">Deze week</input>
+    </div>
+    <input type="radio" name="vandaag" id="vandaag">Vandaag</input>
+    <select name="categoryfilmagenda" class="categoryoption">
+    <option selected="selected" value="kies je categorie">CATEGORIE</option>
+    </select>
     </div>
     <div class="movieContainer">
     <?php

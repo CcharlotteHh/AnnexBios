@@ -11,6 +11,22 @@ $mustache = new Mustache_Engine(array('entity_flags' => ENT_QUOTES, 'loader' => 
 $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
 ?>
 <div id="container">
+<div class="headerblock">
+        <h2>FILM AGENDA</h2>
+    </div>
+    <div class="filterblock">
+    <i class="fa-solid fa-bars filtericon"></i>
+    <div class="films">
+    <i class="fa-solid fa-circle-arrow-down"></i><p>Films</p>
+    </div>
+    <div class="dezeweek">
+    <input type="radio" name="dezeweek">Deze week</input>
+    </div>
+    <input type="radio" name="vandaag" id="vandaag">Vandaag</input>
+    <select name="categoryfilmagenda" class="categoryoption">
+    <option selected="selected" value="kies je categorie">CATEGORIE</option>
+    </select>
+    </div>
   <div class="movieContainer">
     <?php
     for ($i = 0; $i < 9; $i++) {
