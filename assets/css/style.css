@@ -332,6 +332,7 @@ index
 
 .film_image {
   height: 1000px;
+ 
 }
 .headerblock h2{
   font-size:70px;
@@ -434,7 +435,21 @@ index
 .information{
   background-color:white;
   color:#000000;
-  padding:3.9%
+  padding:3.9%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items:space-between;
+}
+
+.filmExtraInfo{
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.releasedate{
+  padding-bottom: 30px;
 }
 
 .releasedate{

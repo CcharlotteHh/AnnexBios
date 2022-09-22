@@ -16,7 +16,7 @@ $movieBlockTemplate = $mustache->loadTemplate('movieInformation');
   echo $movieBlockTemplate->render($jsonData["filmdata"][$id]);
   ?>
 <div class="buttonandtrailer">
-<button class="kooptickets">
+<button class="kooptickets" onclick="window.location.href='bestel.php'">
       KOOP JE TICKETS
     </button>
 <div class="trailer">
