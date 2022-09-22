@@ -16,7 +16,7 @@ $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
     </div>
     <div class="filterblock">
     <i class="fa-solid fa-bars filtericon"></i>
-    <div class="films">
+    <div class="films filmsblock">
     <input type="radio" name="dezeweek">Films</input>
     </div>
     <div class="films dezeweek">

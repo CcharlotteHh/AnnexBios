@@ -5,7 +5,10 @@ require 'header.php';
 ?>
 
 <main class="ordermain">
+  
+  <div class="headerblock">
   <h1>TICKETS BESTELLEN</h1>
+    </div>
   <ul class="datetime">
     <li>
       <p class="moviename"><?php echo $jsonData["filmdata"][0]["film_title"] ?></p>
