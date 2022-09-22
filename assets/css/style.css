@@ -472,6 +472,7 @@ index
 
 .movieCard{
   position: relative;
+  height:743px;
   background-color: white;
   color:black;
   display: flex;
@@ -481,13 +482,31 @@ index
   position:absolute;
   bottom: 0;
 }
+.movieCardTextAndBtn{
+  padding-top:200px;
+  height:400px;
+}
+
+.movieCardText{
+  height:300px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.movieCardbtn{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top:50px;
+}
 .movieCard button{
   width: 158px;
   background-color: white;
   color: var(--red);
   border: none;
   cursor: pointer;
-  margin-left: 10%;
   padding: 10px;
   font-size: 15px;
   font-weight:bold; background-color:var(--red);

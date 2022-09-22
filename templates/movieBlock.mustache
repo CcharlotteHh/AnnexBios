@@ -1,6 +1,7 @@
 <div class="movieCard">
 <img src="{{film_photo}}" width="100">
-
+<div class="movieCardTextAndbtn">
+<div class="movieCardText">
 <h4>{{film_title}}</h4>
 <ion-icon name="star"></ion-icon>
 <ion-icon name="star"></ion-icon>
@@ -9,7 +10,9 @@
 <ion-icon name="star-outline"></ion-icon><br>
 <h5>Release {{film_releasedate}}</h5><br>
 {{film_shortinfo}}
-
+</div>
+<div class="movieCardbtn">
   <button class="movieid' id="movieId-{{film_id}}" onClick="window.location.href='informatiepagina.php?movie={{film_id}}'">MEER INFO & TICKETS</button>
-
+</div>
+</div>
 </div>
