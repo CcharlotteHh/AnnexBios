@@ -308,6 +308,7 @@ index
   grid-row-gap: 7px;
   margin: 0 8% 0 8%;
   color: white;
+  margin-bottom: 60px;
 }
 
 .movieCard {
@@ -378,6 +379,13 @@ index
   text-align: left;
 }
 
+.films1{
+  padding-left: 5px;
+  padding-right: 5px;
+  width:150px;
+
+}
+
 .films i {
   margin-right:5px;
 }
@@ -388,15 +396,23 @@ index
 
 }
 
+
 .categoryfilmagenda option {
   color:var(--red);
 }
 
 .dezeweek ,.vandaag{
   background-color: white;
-  width:152px;
-  padding:20px 15px 20px 15px;
+  padding:20px 5px 20px 5px;
   justify-content:space-evenly
+}
+
+.dezeweek{
+  width:220px;
+}
+
+.vandaag{
+  width: 200px;
 }
 
 .categoryoption{

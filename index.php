@@ -25,7 +25,7 @@ $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
             <div class="mapandinfo">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2465.392695329367!2d4.130585215667547!3d51.83552359447989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c451c6f4434d53%3A0x20bb4b6bcdd57904!2sRijksstraatweg%2042%2C%203223%20KA%20Hellevoetsluis!5e0!3m2!1snl!2snl!4v1663589163143!5m2!1snl!2snl"
-                width="700"
+                width="550"
                 height="220"
                 style="border: 0"
                 allowfullscreen=""
@@ -63,7 +63,7 @@ $movieBlockTemplate = $mustache->loadTemplate('movieBlock');
       <div class="filtericon">
     <i class="fa-solid fa-bars "></i>
     </div>
-    <div class="films">
+    <div class="films films1">
     <input type="radio" name="dezeweek">Films</input>
     </div>
     <div class="films dezeweek">
