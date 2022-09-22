@@ -86,6 +86,7 @@ require 'header.php';
       </div>
       <div class="stap2">
         <h2>STAP 2:KIES JE STOEL</h2>
+        <img src="assets/img/zaal_rood.png" alt="stoel kiezen">
       </div>
       <div class="stap3">
         <h2>STAP 3: CONTROLEER JE BESTELLING</h2>
