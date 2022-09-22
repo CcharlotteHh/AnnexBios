@@ -346,42 +346,36 @@ index
   display:flex;
   align-items: center;
   font-size:20px;
-  width: 70%;
+  width: 40%;
+}
+
+.headerandfiltercontainer{
+  width: 776px;
 }
 
 .filtericon{
-  width:7.7%;
+  width: 60px;
   height:100%;
   display:flex;
   justify-content:center;
-  align-items:center;
-  color: white; 
-}
-
-.films select option{
-  color:var(--red);
+  align-items: center;
+  color: white;
 }
 
 .films{
+  width:15%;
   height:100%;
   display:flex;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: space-evenly;
   background-color: white;
   border: none;
   margin-left: 5px;
-  width: 120px;
-}
-
-
-.filmsblock{
-  display:flex;
-  justify-content:space-evenly;
 }
 
 .filmsfilter{
   width: 120px;
-  justify-content:space-evenly
+  text-align: left;
 }
 
 .films i {
@@ -389,7 +383,9 @@ index
 }
 
 .categoryfilmagenda{
-  width:240px;
+  width: 230px;
+  color:var(--red);
+
 }
 
 .categoryfilmagenda option {
@@ -398,9 +394,9 @@ index
 
 .dezeweek ,.vandaag{
   background-color: white;
-  width:175px;
+  width:152px;
   padding:20px 15px 20px 15px;
-  justify-content:space-around;
+  justify-content:space-evenly
 }
 
 .categoryoption{
